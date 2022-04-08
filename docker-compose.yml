@@ -3,8 +3,8 @@ services:
   strongswan:
     image: vimagick/strongswan
     ports:
-      - 500:500/udp
-      - 4500:4500/udp
+      - "500:500/udp"
+      - "4500:4500/udp"
     volumes:
       - /lib/modules:/lib/modules
       - /etc/localtime:/etc/localtime
